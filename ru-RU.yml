@@ -5,11 +5,10 @@
 ###########################################################################################
 
 --- 
-acidBottle: "Пузырек с кислотой"
-acidBucket: "Ведерко кислоты"
+acidBottle: "Пузырёк с кислотой"
+acidBucket: "Ведёрко кислоты"
 acidLore: |
-    Не
-    Вздумай пить!
+    Не вздумай пить!
 adminDeleteIsland: 
   error: "Use &ldeleteisland confirm &r&cto delete the island you are on."
   noid: "Не найден ID острова"
