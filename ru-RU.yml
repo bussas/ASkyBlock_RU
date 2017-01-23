@@ -51,7 +51,7 @@ adminHelp:
 adminInfo: 
   bannedPlayers: "Забаненные игроки"
   hoppers: "Island has [number] hoppers"
-  isLocked: "Island is locked"
+  isLocked: "Остро заблокирован'
   isProtected: "Остров защищен от очистки"
   isSpawn: "Остров - спаун"
   isUnlocked: "Island is unlocked"
