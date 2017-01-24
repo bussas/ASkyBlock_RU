@@ -50,17 +50,17 @@ adminHelp:
   unregister: "Удалить игрока из острова"
 adminInfo: 
   bannedPlayers: "Забаненные игроки"
-  hoppers: "Island has [number] hoppers"
-  isLocked: "Остро заблокирован'
+  hoppers: "Остров имеет [number] шт. воронок"
+  isLocked: "Остров заблокирован'
   isProtected: "Остров защищен от очистки"
   isSpawn: "Остров - спаун"
-  isUnlocked: "Island is unlocked"
+  isUnlocked: "Остров разблокирован"
   isUnprotected: "Остров не защищен от очистки"
-  lastLogin: "Last login"
+  lastLogin: "Последний вход"
   maxSize: "Максимальный размер острова"
   player: "Игрок"
-  teamLeader: "Team Leader"
-  teamMembers: "Team Members"
+  teamLeader: "Лидер команды"
+  teamMembers: "Члены команды"
   title: "Это остров-спаун"
   unowned: "Сейчас этим островом никто не владеет"
 adminLock: 
@@ -187,7 +187,7 @@ completechallenge:
 confirm: 
   errorTimeLimitExpired: "Time limit expired! Issue command again."
 coop: 
-  help: "give a player full access to your island"
+  help: "дают игроку полный доступ к твоему острову"
   invited: "[name] made [player] a coop player!"
   listcoops: "list coop players"
   madeyoucoopy: "[name] made you a coop player!"
@@ -242,7 +242,7 @@ invite:
   onlyIslandOwnerCanInvite: "Только лидер может приглашать других игроков!"
   removingInvite: "Removing your previous invite."
   toAcceptOrReject: "to accept or reject the invite."
-  warningYouWillLoseIsland: "WARNING: You will lose your current island if you accept!"
+  warningYouWillLoseIsland: "ВНИМАНИЕ: Ты потеряешь свой остров, если всё-таки примешь это!"
   youCanInvite: "Ты  можешь пригласить еще [number] игроков."
   youCannotInvite: "Ты не можешь пригласить никого."
   youHaveJoinedAnIsland: "You have joined an island! Use /[label] team to see the other members."
