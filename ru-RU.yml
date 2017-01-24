@@ -24,7 +24,7 @@ adminHelp:
   help: "Команды для администраторов:"
   info: "info for the given player"
   infoisland: "provide info on the nearest island"
-  kick: "removes player from any team"
+  kick: "удаляет игрока из команды"
   level: "provide detailed island level report on player"
   lock: "locks/unlocks player's island"
   purge: "Очищает острова, которые неактивны [TimeInDays] дней."
@@ -114,13 +114,13 @@ adminTopBreeders:
   finding: "Finding top breeders..."
   nothing: "No creatures found."
 adminTopTen: 
-  finished: "Finished generation of the Top Ten list"
-  generating: "Generating the Top Ten list"
+  finished: "Генерация ТОП-10 завершена"
+  generating: "Генерируем ТОП-10"
 adminTp: 
   manualWarp: "No safe spot found. Manually warp to somewhere near [location]."
 adminUnregister: 
-  keepBlocks: "Removing player from world, but keeping island at [location]"
-  onTeam: "Player is in a team - disband it first."
+  keepBlocks: "Удаляем игрока, но сохраняем блоки на [location]"
+  onTeam: "Игрок в команде, сначала распустите её."
 ban: 
   alreadybanned: "[name] забанен!"
   banned: "Ты забанен на острове [name]!"
@@ -148,7 +148,7 @@ challenges:
   complete: "Завершено"
   completeNotRepeatable: "Завершено (нельзя повторить)"
   completeRepeatable: "Завершено (можно повторить)"
-  completedtimes: "Завершено [donetimes] из [maxtimes]"
+  completedtimes: "Завершено [donetimes] раз из [maxtimes]"
   errorIslandLevel: "Твой остров должен быть [level] уровн., чтобы завершить испытание!"
   errorItemsNotThere: "Все предметы должны быть с Вами и на Вашем острове"
   errorNotCloseEnough: "Вы должны стоять с [number] блоками/предметами всех нужных вещей."
@@ -156,7 +156,7 @@ challenges:
   errorNotOnIsland: "Вы должны быть на своём острове, чтобы сделать это!"
   errorRewardProblem: "There was a problem giving your reward. Ask Admin to check log!"
   erroryouaremissing: "You are missing"
-  expReward: "Exp reward"
+  expReward: "Награда опытом"
   firstTimeRewards: "First time reward(s)"
   guititle: "ASkyBlock Challenges"
   help1: "Use /c <name> to view information about a challenge."
@@ -164,10 +164,10 @@ challenges:
   incomplete: "Не завершено"
   invalidChallengeName: "Invalid challenge name! Use /c help for more information"
   itemTakeWarning: "All required items are taken when you complete this challenge!"
-  level: "Level"
+  level: "Уровень"
   maxreached: "Max reached [donetimes] out of [maxtimes]"
-  moneyReward: "Money reward"
-  name: "Challenge Name"
+  moneyReward: "Денежная награда"
+  name: "Имя испытания"
   nameHasCompleted: "[name] has completed the [challenge] challenge!"
   navigation: "Click to see [level] challenges!"
   notRepeatable: "This Challenge is not repeatable!"
@@ -299,15 +299,15 @@ island:
   url: ""
 islandProtected: "Остров защищен."
 islandguardsettings: 
-  TNTdamage: "TNT Damage"
-  allowed: "Allowed"
-  anvil: "Anvil use"
-  armorstand: "Armor Stand use"
-  beacon: "Beacon use"
-  bed: "Bed use"
-  breakblocks: "Break blocks"
-  breeding: "Breeding"
-  brewingstand: "Potion Brewing"
+  TNTdamage: "Урон от динамита"
+  allowed: "Разрешено"
+  anvil: "Использование наковальни"
+  armorstand: "Использование вешалки" #Креативный перевод, lvl: GOD
+  beacon: "Использование маяка"
+  bed: "Использование кровати"
+  breakblocks: "Уничтожение блоков"
+  breeding: "Разведение животных" #Разведение животных? Поменяй, если что
+  brewingstand: "Зельеварение"
   bucket: "Bucket use"
   chest: "Chest use"
   chestdamage: "Chest damage by TNT"
@@ -440,17 +440,17 @@ reload:
 resetallchallenges: 
   success: "[name] has had all challenges reset."
 resetchallenge: 
-  challengeReset: "Challenge: [challengename] has been reset for [name]"
+  challengeReset: "Испытание [challengename] было сброшено для [name]"
   errorChallengeDoesNotExist: "Challenge doesn't exist or isn't yet completed"
 schematics: 
-  title: "Select island..."
+  title: "Выбери остров..."
 sethome: 
   errorNoIsland: "You are not part of an island. Returning you the spawn area!"
   errorNotOnIsland: "You must be within your island boundaries to set home!"
   errorNumHomes: "Homes can be 1 to [max]"
   homeSet: "Your island home has been set to your current location."
 settingsReset:
-  done: "Done."
+  done: "Всё."
   inprogress: "Protection settings being reset, please wait..."
 sign: 
   line1: "&1[A Skyblock]"
@@ -460,9 +460,9 @@ sign:
 sign-acidisland:
    line1: "&1[AcidIsland]"
    line2: "[player]"
-   line3: "Water is acid!"
-   line4: "Beware!"
-targetInPVPArea: "Target is in a no-PVP area!"
+   line3: "Кислотная вода!"
+   line4: "Берегись!"
+targetInPVPArea: "Цель не в зоне PVP!"
 team: 
   listingMembers: "Listing your island members"
 teamchat: 
